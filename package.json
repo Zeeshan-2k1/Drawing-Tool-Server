@@ -1,0 +1,28 @@
+{
+  "name": "drawing-pen-server",
+  "version": "1.0.0",
+  "description": "This is the sevrer for drawing pen tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zeeshan-2k1/Drawing-Tool-Server.git"
+  },
+  "keywords": [
+    "Drawing",
+    "Tool"
+  ],
+  "author": "Zeeshan Ashraf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zeeshan-2k1/Drawing-Tool-Server/issues"
+  },
+  "homepage": "https://github.com/Zeeshan-2k1/Drawing-Tool-Server#readme",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  }
+}
